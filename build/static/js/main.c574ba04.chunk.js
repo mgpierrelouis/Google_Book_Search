@@ -1,0 +1,2 @@
+(this.webpackJsonphelloreact=this.webpackJsonphelloreact||[]).push([[0],{9:function(e,t,r){"use strict";r.r(t);r(1);var n=r(3),c=r.n(n),o=r(0);var s=function(){return Object(o.jsx)("p",{children:"Hello World!"})};var l=function(){return Object(o.jsx)(s,{})};c.a.render(Object(o.jsx)(l,{}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.c574ba04.chunk.js.map
