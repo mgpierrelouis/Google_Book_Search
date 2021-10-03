@@ -36,7 +36,7 @@ export function ListItem({
             <p>Authors: {authors} </p>
             <p>Description: {description}</p>
             <a rel="noreferrer noopener" target="_blank" href={link}>
-              Go to book!
+              Link
             </a>
           </Col>
           <Col size='xs-2 sm-2 md-2 lg-1'>

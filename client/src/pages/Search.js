@@ -89,7 +89,7 @@ function Search() {
                       link={book.volumeInfo.infoLink}
                       authors={book.volumeInfo.authors}
                       thumbnail={!book.volumeInfo.imageLinks ? (
-                        "http://books.google.com/books/content?id=llmymwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                        "https://uhcl-ir.tdl.org/bitstream/handle/10657.1/2217/not-available.jpg.jpg?sequence=3&isAllowed=y"
                       ) : (book.volumeInfo.imageLinks.thumbnail)} 
                       index={index}
                       onclick={handleSaveBook}
