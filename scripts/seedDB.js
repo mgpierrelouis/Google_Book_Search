@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
-mongoose.connect("mongodb://localhost/googlebooks",{
+mongoose.connect("mongodb://localhost/googlebookssearch",{
     useNewUrlParser: true,
 });
 
@@ -15,7 +15,7 @@ const bookSeed = [
         id: "NDu43aklSi4C"
     
     }
-  
+ 
 ]
 
 db.Book.remove({})

@@ -25,7 +25,7 @@ function Saved() {
   const handleRemoveBook = event => {
       event.preventDefault();
 
-      API.removeBook(event.target.id)
+      API.deleteBook(event.target.id)
         .then(res => loadBooks())
         .catch(err => console.log(err));
     }

@@ -9,6 +9,11 @@ export default {
   getBook: function(id) {
     return axios.get("/api/books/" + id);
   },
+  //Returns all saved books
+  getSavedBooks: function () {
+    return axios.get("/api/books")
+  },
+
   // Deletes the book with the given id
   deleteBook: function(id) {
     return axios.delete("/api/books/" + id);
