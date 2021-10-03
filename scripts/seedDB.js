@@ -7,14 +7,12 @@ mongoose.connect("mongodb://localhost/googlebookssearch",{
 
 const bookSeed = [
     {
-        authors: ["Michael Reaves"],
-        description: "The Emperor's ruthless Order 66 has all but exterminated the Jedi. The few remaining who still wield the Force for good have been driven into exile or hiding. But not Jax Pavan, who's been steadily striking blows against the Empire—as a lone guerrilla fighter and a valued partner of Whiplash, a secret Coruscant-based resistance group. ",
-        image: "https://books.google.com/books/content?id=NDu43aklSi4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73vsGW4cWVTMe55rLM03Lnc-yhziUmG5P7EkxlvAQm3dC37NcBt6MXHEPy6sD7I8DquHXAuWvLTR5NjWEr6ry3EtgPC7ZFLnlwcCJPTQk4U8Y8_9PO4OcgUm_zW1dsOAKACSTS-",
-        link: "https://books.google.com/books?id=NDu43aklSi4C&newbks=1&newbks_redir=0&hl=en",
-        title: "Star Wars: The Last Jedi",
-        id: "NDu43aklSi4C"
-    
-    }
+        authors: ["Suzanne Collins"],
+        description: "Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature.",
+        image: "http://books.google.com/books/content?id=sazytgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        link: "http://books.google.com/books?id=sazytgAACAAJ&dq=title:The+Hunger+Games&hl=&source=gbs_api",
+        title: "The Hunger Games"
+      }
  
 ]
 
