@@ -1,11 +1,9 @@
 import React from "react";
 import Thumbnail from "../Thumbnail";
-import Button from "../Button";
+import Btn from "../Btn";
 import { Container, Row, Col } from "../Grid";
 
-// Exporting both BookList and BookListItem from this file
 
-// BookList renders a bootstrap list item
 export function List({ type, children }) {
   return (
     <div>
@@ -15,7 +13,6 @@ export function List({ type, children }) {
   );
 }
 
-// BookListItem renders a bootstrap list item containing data from the google book api call
 export function ListItem({
   thumbnail,
   title,
@@ -43,14 +40,14 @@ export function ListItem({
             </a>
           </Col>
           <Col size='xs-2 sm-2 md-2 lg-1'>
-            <Button
+            <Btn
                 id={index}
                 onClick={onclick}
                 type="success"
                 className={"input-lg"}
                 size={'sm'}>
                 {btnName}
-              </Button>
+              </Btn>
           </Col>
         </Row>
       </Container>

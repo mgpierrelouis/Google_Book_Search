@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Input from "../components/Input";
-import Button from "../components/Button";
+import SearchBar from "../components/SearchBar";
+import Btn from "../components/Btn";
 import API from "../utils/API";
 import { List, ListItem } from "../components/List";
 import { Container, Row, Col } from "../components/Grid";
@@ -53,7 +53,7 @@ function Search() {
               <Container>
                 <Row>
                   <Col size="xs-9 sm-10">
-                    <Input
+                    <SearchBar
                       name="BookSearch"
                       value={bookSearch}
                       onChange={handleInputChange}
@@ -61,13 +61,13 @@ function Search() {
                     />
                   </Col>
                   <Col size="xs-3 sm-2">
-                    <Button
+                    <Btn
                       onClick={handleFormSubmit}
                       size='lg'
                       className="search-btn"
                     >
                         Search
-                    </Button>
+                    </Btn>
                   </Col>
                 </Row>
               </Container>
