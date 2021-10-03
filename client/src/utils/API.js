@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
   // Gets books from Google API
-  getBooks: function() {
+  getBooks: function(query) {
     return axios.get("https://www.googleapis.com/books/volumes?", {params: {query: query}});
   },
   // Gets the book with the given id
